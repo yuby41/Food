@@ -11,10 +11,35 @@
 </head>
 
 <body>
-    <div class="px-2 bg-secondary text-white flex justify-between items-center">
-        <div><img class="h-8 py-1" src="images/logo-w.svg"></div>
-        <div class="text-2xl">&equiv;</div>
-    </div>
+    <nav class="bg-secondary text-gray-100">
+        <div class="px-2 bg-secondary text-white flex justify-between items-center">
+            <div><img class="h-8 py-1" src="images/logo-w.svg"></div>
+            <div class="text-2xl">&equiv;</div>
+        </div>
+        <div class="my-1 mx-2">
+            <input class="form-control" type="search" placeholder="Busqueda">
+        </div>
+        <div class="my-1 mx-2 md:flex justify-around">
+            <div class="flex">
+                Precio:
+                <div class="ml-2">&jukcy;</div>
+                <div class="ml-2 text-primary">&jukcy;&jukcy;</div>
+                <div class="ml-2">&jukcy;&jukcy;&jukcy;</div>
+                <div class="ml-2">&jukcy;&jukcy;&jukcy;&jukcy;</div>
+            </div>
+            <div class="flex">
+                <div class="">Calificacion:</div>
+                <div class="ml-2 text-primary">&starf;</div>
+                <div class="ml-px text-primary">&starf;</div>
+                <div class="ml-px text-primary">&starf;</div>
+                <div class="ml-px text-primary">&starf;</div>
+                <div class="ml-px">&starf;</div>
+            </div>
+            <div>
+                <button class="btn">Filtrar</button>
+            </div>
+        </div>
+    </nav>
     <main class="mb-8">
         <div class="h-56 md:h-96 md:bg-center bg-no-repeat bg-cover bg-bottom" style="background-image: url('https://images.unsplash.com/photo-1599458448510-59aecaea4752?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80')">
         </div>
@@ -57,7 +82,7 @@
                     <textarea class="form-control" name="" id="" cols="30" rows="4"></textarea>
                 </div>
                 <div>
-                    <button class="btn">Enviar</button>
+                    <button class="btn mx-auto">Enviar</button>
                 </div>
             </div>
         </div>

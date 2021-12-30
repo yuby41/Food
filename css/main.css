@@ -15,5 +15,5 @@
 }
 
 .btn {
-    @apply rounded shadow-lg py-1 px-4 bg-yellow-600 mx-auto block hover:shadow-none hover:bg-gray-500 hover:text-white;
+    @apply rounded shadow-lg py-1 px-4 bg-yellow-600 block hover:shadow-none hover:bg-gray-500 hover:text-white;
 }
